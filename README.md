@@ -2,7 +2,7 @@
 Quick script to tell you how many questions have been asked in a given Slack channel
 
 # Prerequisites
-* Have an app that has the following Bot and User toekn scopes:
+* Have an app that has the following Bot and User token scopes:
      * groups:history
      * groups:read
      * channels:history
