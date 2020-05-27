@@ -12,3 +12,6 @@ Quick script to tell you how many questions have been asked in a given Slack cha
 `python3 slackQuestions.py https://slack.com/api/conversations.history <channel-id> <OAuth-Access-Token>`
 
 * Provide the channelId and your token
+
+# TODO
+* Allow to search by name instead of providing the id
