@@ -2,6 +2,8 @@ import requests
 import json
 import sys
 
+endpoint = "https://slack.com/api/conversations.history"
+
 def getChannelContent():
     response = requests.get(
         '%s' % (endpoint +"?channel="+channel+"&limit=1000"),
@@ -17,7 +19,6 @@ def getChannelContent():
     print(cnt)
         
 if __name__ == '__main__':
-    endpoint = sys.argv[1]
-    channel = sys.argv[2]
-    token = sys.argv[3]
+    channel = sys.argv[1]
+    token = sys.argv[2]
     getChannelContent()
